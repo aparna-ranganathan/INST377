@@ -1,0 +1,65 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;  
+  margin: 20px 10px 5px 10px;
+}
+.main-header {
+  background-color:rgb(23, 0, 85);
+  color:rgb(218, 237, 255);
+  font-size:25px;
+  padding:10px;
+}
+.main-header h1{
+  margin:10px 5px;
+  display:flex;
+  justify-content:center;
+}
+.my-info{
+  color:rgb(23, 0, 85);
+  background-color:rgb(218, 237, 255);
+  width:60%;
+  margin:auto;
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+}
+.about-me{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.about-me img{
+  max-width:60%;
+}
+.prior-exp h3{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding-top: 1em;
+  border-top:1px solid black;
+}
+
+.prior-exp h4{
+text-decoration:underline;
+font-weight: bolder;
+font-size: 120%
+}
+.prior-exp p{
+  display:flex;
+  justify-content: space-between;
+  font-style:italic;
+  line-height: 5px;
+  font-weight: 550;
+  font-size:90%;
+}
+.prior-exp li{
+list-style: square;
+padding-right:1em;
+}
+footer{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding-bottom:1em;
+}
+
+
