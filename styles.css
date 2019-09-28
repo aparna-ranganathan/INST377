@@ -26,6 +26,7 @@ body{
   display:flex;
   flex-direction:column;
   align-items: center;
+  font-size: 130%
 }
 .about-me img{
   max-width:60%;
@@ -36,12 +37,13 @@ body{
   align-items: center;
   padding-top: 1em;
   border-top:1px solid black;
+  font-size: 130%
 }
 
 .prior-exp h4{
 text-decoration:underline;
 font-weight: bolder;
-font-size: 120%
+font-size: 110%
 }
 .prior-exp p{
   display:flex;
